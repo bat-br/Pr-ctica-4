@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Captura de pantalla 2025-09-08 093821.png" />
+    <None Remove="Captura de pantalla 2026-02-20 080844.png" />
+    <None Remove="DosSpiderman.png" />
+    <None Remove="DosSpiderman2.png" />
+    <None Remove="ea8b137fbc46bea2f12cc9087e57053d.gif" />
+    <None Remove="Hackerman.jpg" />
+    <None Remove="images %281%29.jpg" />
+    <None Remove="images.jpg" />
+    <None Remove="Rotating_earth_%28large%29.gif" />
+    <None Remove="Spiderman.png" />
+    <None Remove="Spiderman1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Captura de pantalla 2025-09-08 093821.png" />
+    <Resource Include="Captura de pantalla 2026-02-20 080844.png" />
+    <Resource Include="DosSpiderman.png" />
+    <Resource Include="DosSpiderman2.png" />
+    <Resource Include="ea8b137fbc46bea2f12cc9087e57053d.gif" />
+    <Resource Include="Hackerman.jpg" />
+    <Resource Include="images (1).jpg" />
+    <Resource Include="images.jpg" />
+    <Resource Include="Rotating_earth_(large).gif" />
+    <Resource Include="Spiderman.png" />
+    <Resource Include="Spiderman1.png" />
+  </ItemGroup>
+
+</Project>
